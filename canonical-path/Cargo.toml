@@ -1,0 +1,19 @@
+[package]
+name        = "canonical-path"
+description = "Path and PathBuf-like types for representing canonical filesystem paths"
+version     = "2.1.0-pre"
+authors     = ["Tony Arcieri <tony@iqlusion.io>"]
+license     = "Apache-2.0"
+homepage    = "https://github.com/iqlusioninc/crates/"
+repository  = "https://github.com/iqlusioninc/crates/tree/main/canonical-path"
+readme      = "README.md"
+categories  = ["filesystem"]
+keywords    = ["filesystem", "path", "canonicalization"]
+edition     = "2024"
+rust-version = "1.85"
+
+[badges]
+maintenance = { status = "passively-maintained" }
+
+[dev-dependencies]
+tempfile = "3"
